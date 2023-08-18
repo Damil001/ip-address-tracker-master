@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Rubik', sans-serif;
+}
+.Main_Section_Wrapper{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url(/images/pattern-bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+   
+   
+}
+.mainheading
+{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.Text_Input_Wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.IP_Input
+{
+   
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border-width: 0px;
+}
+
+.inputwrapper
+{
+    width: 90%;
+    max-width: 480px;
+    position: relative;
+}
+
+.inputbuttonwrapper
+{
+    padding: 16px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.Pargraph_16px
+{
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(0, 0%, 59%);
+    margin-bottom: 10px;
+}
+.h2_heading
+{
+    font-size:18px ;
+    font-size: 700;
+    color: black;
+}
+.ip_information_wrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1080px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    column-gap: 20px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+    
+}
+.ip_address_container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ip_information_flex_wrapper
+{
+    border-right-color: black;
+    border-width: 2px;
+}
+#map{
+    height: 70vh;
+}
